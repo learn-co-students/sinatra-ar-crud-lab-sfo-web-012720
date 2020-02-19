@@ -1,0 +1,16 @@
+<h1>Create a new article!</h1>
+
+<form action="/articles" method="post">
+  <div>
+    <label for="title">Enter article title:</label>
+    <input type="text" name="title" id="title" required>
+  </div>
+	<div>
+    <label for="content">Enter article content:</label>
+    <textarea rows="4" cols="50" name="content" id="content" required></textarea>
+  </div>
+
+  <div>
+    <input type="submit" value="Create article!">
+  </div>
+</form>
