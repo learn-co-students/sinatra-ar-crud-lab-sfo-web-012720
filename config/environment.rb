@@ -17,3 +17,6 @@ ActiveRecord::Base.establish_connection(
 )
 
 require_all 'app'
+
+# needed for Patch and Delete
+use Rack::MethodOverride
